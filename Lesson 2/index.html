@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>ETI 461 HTML Lesson File</title>
+</head>
+<body>
+<h1>Class Setup</h1>
+
+Add User<br>
+<form action="action.html" method="GET">
+    first_name <input type="text" name="first" value=""><br>
+    last_name <input type="text" name="last" value=""><br>
+    email <input type="email" name="email" value=""><br>
+    username <input type="text" name="username" value=""><br>
+    password <input type="password" name="password" value=""><br>
+    <input type="submit" value="Add User">
+</form>
+
+<br>
+
+Add Class to Schedule <br>
+<form action="action.html" method="POST">
+    class_name <input type="text" name="class" value=""><br>
+    section <input type="text" name="section" value=""><br>
+    credits <input type="number" name="credits" value=""><br>
+    <input type="submit" value="Add Class to Schedule">
+</form>
+
+<p>
+    <a href="action.html?first_name=Asa">Go to Action Page</a>
+</p>
+
+</body>
+</html>

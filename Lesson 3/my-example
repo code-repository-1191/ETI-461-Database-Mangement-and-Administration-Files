@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>PHP Example File</title>
+</head>
+<body>
+<?php 
+$name = "Asa";
+$major = "ETI";
+$college = "Penn State";
+$university = "Captial College";
+
+echo "My name is {$name}. My major is {$major}. I attend {$college} at {$university}.";
+?>
+
+<p>My favorite class is ETI 461</p>
+Here are my classes<br>
+<?php
+//Here is the syntax for a single line of commented code
+/*This is the syntax for a multi-line of commented code*/
+$schedule = array("ETI 461", "ETI 300W", "HIST 144", "IST 256", "SCM 301");
+foreach ($schedule as $course) (
+    echo "$course<br>";
+)
+?>
+
+</body>
+</html>
